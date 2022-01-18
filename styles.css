@@ -5,3 +5,20 @@
     text-decoration: none;
     outline: none;
 }
+
+.box {
+    background: #9E9E9E;
+    border: black 1px solid;
+    width: 2em;
+    height: 2em;
+    float: left;
+}
+
+.row {
+    float:left;
+    width:100%;
+}
+
+.painted-box{
+    background: #000;
+}
