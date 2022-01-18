@@ -5,12 +5,17 @@
     text-decoration: none;
     outline: none;
 }
+.container{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(26, 1fr);
+    grid-template-rows: repeat(26, 1fr);
+}
 
 .box {
     background: #9E9E9E;
     border: black 1px solid;
-    width: 2em;
-    height: 2em;
     float: left;
 }
 
