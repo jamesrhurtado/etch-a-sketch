@@ -11,6 +11,11 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
+    margin: 2em;
+}
+h1{
+    text-align: center;
+    margin: 20px;
 }
 
 .box {
@@ -18,7 +23,10 @@
     border: black 1px solid;
 }
 
-
+button{
+    padding: 0.5rem 0.75rem;
+    margin: 1rem;
+}
 .painted-box{
     background: #000;
 }
